@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { BlobServiceClient } from "@azure/storage-blob";
 import config from "../config";
 
@@ -23,11 +23,6 @@ const FileExplorer: React.FC = () => {
     }
   };
 
-  // useEffect(() => {
-  //   if (uploadedFile) {
-  //     uploadFile();
-  //   }
-  // }, [uploadedFile]);
 
   const uploadFile = async () => {
     if (!uploadedFile) return;
