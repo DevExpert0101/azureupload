@@ -81,7 +81,7 @@ const FileExplorer: React.FC = () => {
   };
 
   return (
-    <div className="file-explorer  w-full mx-auto bg-cyan-100 p-8 rounded-lg shadow-md">
+    <div className="file-explorer  w-full mx-auto bg-cyan-100 p-8 rounded-lg shadow-md overflow-hidden">
       {/* <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">Your File Explorer</h1> */}
       
       <div className="upload-section mb-12">
